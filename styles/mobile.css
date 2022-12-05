@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+div{
+    background-color: rgb(60, 60, 60);
+    
+    display: block;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 9vh;
+    padding: 5px;
+    height: 70vh;
+    width: 30vw;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    padding: 1vw;
+}
+
+p{
+    color: white;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+footer {
+    background-color: black;
+}
