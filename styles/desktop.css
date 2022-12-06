@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.geral{
+    background-color: rgb(60, 60, 60);
+    
+    display: block;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 9vh;
+    padding: 5px;
+    height: 70vh;
+    width: 50vw;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    padding: 1vw;
+}
+
+img {
+    
+    height: 30vh;
+    width: 50vw;
+}
+
+p{
+    color: white;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+footer {
+    background-color: black;
+}
+
+a {
+    background-color: red;
+}

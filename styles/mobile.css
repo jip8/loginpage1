@@ -16,14 +16,14 @@ div{
     margin-top: 8vh;
     margin-bottom: 9vh;
     padding: 5px;
-    height: 70vh;
-    width: 30vw;
+    height: 72vh;
+    width: 85vw;
 
 }
 
 h2 {
     text-align: center;
-    font-size: 3vw;
+    font-size: 7vw;
     color: white;
     padding: 1vw;
 }
@@ -31,7 +31,7 @@ h2 {
 p{
     color: white;
     padding: 1vw;
-    font-size: 1.5vw;
+    font-size: 4vw;
 }
 
 footer {
