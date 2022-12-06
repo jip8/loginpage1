@@ -19,7 +19,6 @@ main {
     margin: auto;
     margin-top: 7.05vh;
     margin-bottom: 8vh;
-    padding: 5px;
     height: 70vh;
     width: 50vw;
 
@@ -40,6 +39,8 @@ img#form {
 img#front {
     width: 25%;
     height: 25%;
+    padding: 3vw;
+    padding-right: 10vw;
 }
 
 p{
