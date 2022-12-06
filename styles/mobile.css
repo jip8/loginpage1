@@ -8,7 +8,7 @@ h1 {
     color: white;
 }
 
-div{
+.geral{
     background-color: rgb(60, 60, 60);
     
     display: block;
@@ -19,6 +19,15 @@ div{
     height: 72vh;
     width: 85vw;
 
+}
+
+img#form {
+    width: 100%;
+    height: 30%;
+}
+
+img#front {
+    display: none;
 }
 
 h2 {
@@ -34,6 +43,16 @@ p{
     font-size: 4vw;
 }
 
+a {
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+}
+
 footer {
     background-color: black;
+}
+
+p#dev {
+    font-size: 1vw;
 }
