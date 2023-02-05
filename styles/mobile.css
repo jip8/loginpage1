@@ -1,29 +1,31 @@
 @charset "UTF-8";
 
-header {
-    background-color: black;
-}
-
 h1 {
     color: white;
 }
-
+main{
+    background: url(../images/backgrd.jpg) no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
 .geral{
     background-color: rgb(60, 60, 60);
     
-    display: block;
-    margin: auto;
-    margin-top: 8vh;
-    margin-bottom: 9vh;
-    padding: 5px;
-    height: 72vh;
-    width: 85vw;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 65vh;
+    width: 65vw;
+    border-radius: 17px;
+    overflow: hidden;
 }
 
-img#form {
-    width: 100%;
-    height: 30%;
+.imgform {
+    background: url(../images/form.png) no-repeat;
+    background-size: cover;
+    height: 30vh;
+    background-position: center top;
 }
 
 img#front {
@@ -47,12 +49,4 @@ a {
     font-size: 3vw;
     text-decoration: none;
     color: white;
-}
-
-footer {
-    background-color: black;
-}
-
-p#dev {
-    font-size: 1vw;
 }

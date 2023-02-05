@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-header {
-    background-color: black;
-}
-
 h1 {
     color: white;
 }
@@ -53,12 +49,4 @@ a {
     font-size: 1vw;
     text-decoration: none;
     color: white;
-}
-
-footer {
-    background-color: black;
-}
-
-p#dev {
-    font-size: 1vw;
 }
