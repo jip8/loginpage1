@@ -2,8 +2,11 @@
 
 h1 {
     color: white;
+    font-size: 7vw;
+    padding: 2vw;
 }
-main{
+
+body{
     background: url(../images/backgrd.jpg) no-repeat;
     background-size: cover;
     background-position: right top;
@@ -12,12 +15,15 @@ main{
     background-color: rgb(60, 60, 60);
     
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 65vh;
-    width: 65vw;
+
+    height: 75vh;
+    width: 75vw;
+
     border-radius: 17px;
+
     overflow: hidden;
 }
 
@@ -39,7 +45,7 @@ h2 {
     padding: 1vw;
 }
 
-p{
+p {
     color: white;
     padding: 1vw;
     font-size: 4vw;
@@ -49,4 +55,14 @@ a {
     font-size: 3vw;
     text-decoration: none;
     color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: -6%;
+}
+
+footer > p {
+    font-size: 2.5vw;
+    padding: 0;
 }

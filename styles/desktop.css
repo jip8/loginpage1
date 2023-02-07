@@ -2,51 +2,84 @@
 
 h1 {
     color: white;
+    font-size: 3vw;
+    padding: 1vw;
 }
 
-main {
-    display: flex;
+body{
+    background: url(../images/backgrd.jpg) no-repeat;
+    background-size: cover;
+    background-position: right top;
 }
 
 .geral{
     background-color: rgb(60, 60, 60);
     
-    display: flex;
-    margin: auto;
-    margin-top: 7.05vh;
-    margin-bottom: 8vh;
-    height: 70vh;
-    width: 50vw;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%,-50%);
 
+    height: 75vh;
+    width: 45vw;
+
+    border-radius: 17px;
+
+    overflow: hidden;
+}
+
+.imgform {
+    background: url(../images/form.png) no-repeat;
+    background-size: cover;
+
+    background-position:  -250px 0px;
+
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.form {
+    float: right;
+    width: 60%;
+    height: 100%;
 }
 
 h2 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     padding: 1vw;
 }
 
-img#form {
-    width: 75%;
-    height: 100%;
-}
-
-img#front {
-    width: 25%;
-    height: 25%;
-    padding: 3vw;
-    padding-right: 10vw;
-}
-
-p{
+p {
     color: white;
     padding: 1vw;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 a {
-    font-size: 1vw;
+    font-size: 2vw;
     text-decoration: none;
     color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: -6%;
+}
+
+footer > p {
+    font-size: 1vw;
+    padding: 0;
+}
+
+img#front {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    
+    width: 400px;
+    height: 500px;
 }
