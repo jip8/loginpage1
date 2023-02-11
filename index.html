@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css" media="all">
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 768px)">
-    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 992px)">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Faça seu Login!</title>
 </head>
@@ -22,17 +23,17 @@
                 <form action="form.php">
                     <p>
                         <label for="log">Login:</label>
-                        <input type="text" name="login" id="log" placeholder="Usuário" required>
+                        <input type="email" name="login" id="log" placeholder="Usuário" required>
                         </p>
                         <p>
                         <label for="pas">Senha:</label>
                         <input type="password" name="password" id="pas" placeholder="Sua Senha" required>
                         </p>
-                        <p><a href="#">Esqueceu sua Senha? Sem problemas!</a></p>
-                        <p>
-                        <input type="submit" value="Conecte-se!">
-                        <a href="#">É novo aqui? cadastre-se</a>
-                    </p>
+                        <a href="#">Esqueceu sua Senha? Sem problemas!</a>
+                        <div class="bot">
+                            <input type="submit" value="Conecte-se!">
+                            <a href="#">É novo aqui?<br>cadastre-se!</a>
+                        </div>
                 </form>
             </div>
             

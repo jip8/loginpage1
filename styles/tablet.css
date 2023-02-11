@@ -2,8 +2,8 @@
 
 h1 {
     color: white;
-    font-size: 7vw;
-    padding: 2vw;
+    font-size: 4vw;
+    padding: 1vw;
 }
 
 body{
@@ -11,6 +11,7 @@ body{
     background-size: cover;
     background-position: right top;
 }
+
 .geral{
     background-color: rgb(60, 60, 60);
     
@@ -25,22 +26,30 @@ body{
     border-radius: 17px;
 
     overflow: hidden;
+
+    
 }
 
 .imgform {
     background: url(../images/form.png) no-repeat;
     background-size: cover;
-    height: 30vh;
-    background-position: center top;
+
+    background-position:  -250px 0px;
+
+    float: left;
+    width: 40%;
+    height: 100%;
 }
 
-img#front {
-    display: none;
+.form {
+    float: right;
+    width: 60%;
+    height: 100%;
 }
 
 h2 {
     text-align: center;
-    font-size: 7vw;
+    font-size: 3vw;
     color: white;
     padding: 1vw;
 }
@@ -48,11 +57,11 @@ h2 {
 p {
     color: white;
     padding: 1vw;
-    font-size: 4vw;
+    font-size: 1.7vw;
 }
 
 a {
-    font-size: 3vw;
+    font-size: 2vw;
     text-decoration: none;
     color: white;
 }
@@ -63,7 +72,10 @@ footer {
 }
 
 footer > p {
-    font-size: 2.5vw;
+    font-size: 1vw;
     padding: 0;
 }
 
+img#front {
+    display: none;
+}

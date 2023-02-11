@@ -25,3 +25,38 @@ footer {
     height: 2.5vh;
     width: 100vw;
 }
+
+.geral {
+    transition: width .1s, heigth .1s;
+    transition-timing-function: ease;
+}
+
+.bot {
+    display: flex;
+    margin-top: 25%;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    margin: 5%;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.bot > a {
+    display: block;
+    font-size: .9em;
+    width: 40%;
+    height: 40px;
+    margin: 5%;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    text-align: center;
+}
