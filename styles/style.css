@@ -45,6 +45,7 @@ input[type=email] {
     background-color: white;
     border-radius: 7px;
     border: 2px solid black;
+    text-indent: 10px;
 }
 
 input[type=password] {
@@ -56,6 +57,7 @@ input[type=password] {
     background-color: white;
     border-radius: 7px;
     border: 2px solid black;
+    text-indent: 10px;
 }
 
 .bot {

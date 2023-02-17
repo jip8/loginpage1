@@ -13,7 +13,9 @@ body{
 }
 
 .geral{
-    background-color: rgb(60, 60, 60);
+    background-image: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     
     position: absolute;
     top: 45%;
