@@ -26,8 +26,6 @@ body{
     border-radius: 17px;
 
     overflow: hidden;
-
-    
 }
 
 .imgform {
@@ -60,8 +58,9 @@ p {
     font-size: 1.7vw;
 }
 
-a {
-    font-size: 2vw;
+.forgot {
+    padding: 5%;
+    font-size: 2.5vw;
     text-decoration: none;
     color: white;
 }

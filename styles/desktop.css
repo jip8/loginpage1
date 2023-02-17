@@ -58,8 +58,9 @@ p {
     font-size: 1.7vw;
 }
 
-a {
-    font-size: 2vw;
+.forgot {
+    padding: 5%;
+    font-size: 1.5vw;
     text-decoration: none;
     color: white;
 }
